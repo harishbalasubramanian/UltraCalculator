@@ -84,10 +84,10 @@ public class calc {
 			if (z.equalsIgnoreCase("yes")){
 				System.out.println("What is your number in base 10? Please only enter integers");
 				num3 = stuffie.nextInt();
-				System.out.println("To what base would you be converting it to? Please only enter integers");
+				System.out.println("To what base from 2-36 would you be converting it to? Please only enter integers");
 				num4 = stuffie.nextInt();
 				System.out.println(num3+" in "+num4+" is "+calc2Object.ten_sixt(num3,num4));
-				System.out.println("Would you like to do the base converter again? Type yes or no. If you type something other than those two words, it will count as no.");
+				System.out.println("Would you like to use the base converter again? Type yes or no. If you type something other than those two words, it will count as no.");
 				z = stuffie.next();
 			}
 		}while(z.equalsIgnoreCase("yes"));
