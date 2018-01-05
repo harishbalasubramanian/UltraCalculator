@@ -84,4 +84,9 @@ public class calc2 {
 		double b = Math.toDegrees(a);
 		return b;
 	}
+	public String ten_sixt(int a, int b){
+
+		String	c =	Integer.toString(a, b);
+		return c;
+	}
 }
