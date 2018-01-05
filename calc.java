@@ -91,5 +91,6 @@ public class calc {
 				z = stuffie.next();
 			}
 		}while(z.equalsIgnoreCase("yes"));
+		System.out.println("Have a nice day");
 	}
 }
